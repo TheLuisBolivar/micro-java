@@ -7,9 +7,7 @@
 
 name: micro-java-publish
 
-on:
-  release:
-    types: [created]
+on: [push]
 
 jobs:
   build:
